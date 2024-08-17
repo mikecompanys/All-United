@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Mike Companys</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+
+        />
+        
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </head>
+
+    <body>
+
+
+
+        <header>
+            <!-- place navbar here -->
+             <nav
+                class="navbar navbar-expand-lg navbar-light bg-dark "
+             >
+                <div class="container">
+                    <a class="navbar-brand text-light" href="#">Mike Companys</a>
+                    <button
+                        class="navbar-toggler hidden-lg-up text-light"
+                        type="button"
+                        style="border-color: aliceblue;"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId"
+                        aria-controls="collapsibleNavId"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >▼</button>
+                    <div class="collapse navbar-collapse text-light" id="collapsibleNavId">
+                        <hr class="mt-2 py-1">
+                        <h4>
+                            Apoyo Vital en la Lucha contra el Sida
+                        </h4>
+                        <hr>    
+                        Contribuir a la salud y bienestar de quienes más lo necesitan es nuestra misión. 
+                        A través de nuestras donaciones, apoyamos a hospitales en la lucha contra el sida, 
+                        brindando esperanza y un mejor futuro a los pacientes.
+
+                    </div>
+                </div>
+             </nav>
+             
+             <!-- Nav tabs -->
+             <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button
+                        class="nav-link active"
+                        id="home-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#home"
+                        type="button"
+                        role="tab"
+                        aria-controls="home"
+                        aria-selected="true"
+                    >
+                        Home
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button
+                        class="nav-link"
+                        id="profile-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#profile"
+                        type="button"
+                        role="tab"
+                        aria-controls="profile"
+                        aria-selected="false"
+                    >
+                        Our work
+                    </button>
+                </li>
+                
+             </ul>
+             
+             
+        </header>
+        <main>
+
+            <div style="padding: 4px;">
+                <!-- Tab panes -->
+             <div class="tab-content">
+                <div
+                    class="tab-pane active bg-secondary pt-2"
+                    id="home"
+                    role="tabpanel"
+                    aria-labelledby="home-tab"
+                >
+                     
+
+                <div class="my-3 p-2 mx-1 shadow bg-dark rounded">
+                    <div id="carouselId" class="carousel slide container" data-bs-ride="carousel">
+                        <div class="carousel-inner rounded" role="listbox">
+                            <div class="carousel-item active">
+                                <img
+                                    src="https://www.fugues.com/wp-content/uploads/2021/02/Rubans-VIH.jpg"
+                                    class="d-block"
+                                    alt="First slide"
+                                    height="190px"
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="https://republicanaradio.com/wp-content/uploads/2016/03/Hospital-salud-foto-v%C3%ADa-El-Tiempo.jpg"
+                                    class="d-block"
+                                    alt="Second slide"
+                                    height="190px"
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="https://mh-2-bildagentur.panthermedia.net/media/media_detail/0007000000/07181000/~globe-weltkarte-mit-aids-ikonen_07181937_detail.jpg"
+                                    class="d-block"
+                                    alt="Third slide"
+                                    height="190px"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-2 mx-2 p-1 bg-primary text-light rounded-top">
+                    <h2>
+                        <span class="text-dark">Unidos por la Salud:</span> <br> <div class="text-center"><u>Apoyo Vital en la Lucha contra el Sida</u></div>
+                    </h2>
+                </div>
+
+                <div class="row mx-2 shadow">
+                    <div class="col" style="text-align: justify;">
+                        Brindamos esperanza y apoyo a hospitales, mejorando la vida de quienes luchan contra el sida.
+                    </div>
+                    <div class="col bg-primary">
+                        <img
+                            src="https://static.vecteezy.com/ti/vecteur-libre/p1/7203861-illustration-de-fond-de-banniere-de-la-journee-mondiale-du-sida-vectoriel.jpg"
+                            class="img-fluid"
+                            alt=""
+                        />
+                        
+                    </div>
+                </div>
+
+
+                <div class="mx-2 my-4 bg-dark rounded pb-2">
+                    <h2 class="text-center text-light pt-2">
+                        Apoya
+                    </h2>
+                    <hr class="text-danger">
+                    <div class="d-grid gap-2 mb-2 mx-3">
+                        <button
+                            type="button"
+                            name=""
+                            id="alertButton"
+                            class="btn btn-primary"
+                        >
+                            Únete a la Causa
+                        </button>
+                    </div>
+                    <div class="d-grid gap-2 mx-3">
+                        <button
+                            type="button"
+                            name=""
+                            id="alertButton2"
+                            class="btn btn-success"
+                        >
+                            Dona ahora
+                        </button>
+                    </div>
+                    
+                </div>
+
+                <hr class="m-2">
+
+                <div class="m-2">
+                    <div class="row">
+                        <div class="col display-1 text-center text-light py-5">
+                                Misión
+                        </div>
+                        <div class="col">
+                            "Apoyamos a hospitales con recursos esenciales, mejorando el tratamiento y cuidado de pacientes con sida."
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="m-2">
+
+                <div class="m-2">
+                    <div class="row">
+                        <div class="col">
+                            "Soñamos con un mundo donde cada persona tenga acceso al tratamiento y apoyo necesarios para vencer el sida."
+                        </div>
+                        <div class="col display-1 text-center py-5 text-light">
+                            Visión
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+
+
+
+
+
+
+                <div
+                    class="tab-pane"
+                    id="profile"
+                    role="tabpanel"
+                    aria-labelledby="profile-tab"
+                >
+
+                    <div class="container mt-2">
+                        <h2 class="text-center">
+                        Nuestros Programas y Proyectos
+                        </h2>
+                        <hr>
+                        <div>
+                            <strong class="display-5">Distribución de Medicamentos:</strong> <br>
+                            <span class="bg-success text-light">
+                                Proveemos medicamentos antirretrovirales a hospitales en comunidades desfavorecidas.
+                            </span>
+                        </div>
+                        <hr class="my-3">
+                        <div>
+                            <strong class="display-5">Apoyo Psicológico:</strong> <br>
+                            <span class="bg-success text-light">
+                                Ofrecemos sesiones de apoyo psicológico a pacientes y sus familias.
+                            </span>
+                        </div>
+                        <hr class="my-3">
+                        <div>
+                            <strong class="display-5">Capacitación Médica:</strong> <br>
+                            <span class="bg-success text-light">
+                                Organizamos talleres de capacitación para personal médico en la lucha contra el sida.
+                            </span>
+                        </div>
+                        <hr class="my-3">
+
+                        <div>
+                            <h2 class="text-center">
+                                Impacto en Números:
+                            </h2>
+                            <div class="row">
+                                <div class="col py-4 text-center bg-success display-3">
+                                    20
+                                </div>
+                                <div class="col py-4 text-center bg-primary display-5">
+                                    Hospitales
+                                </div>
+                            </div>
+                            <hr class="m-0">
+                            <div class="row">
+                                <div class="col py-4 text-center bg-success display-3">+ 10,000</div>
+                                <div class="col py-4 text-center bg-primary display-6">Pacientes beneficiados</div>
+                            </div>
+                            <hr class="m-0">
+                            <div class="row">
+                                <div class="col py-4 text-center bg-success display-3">500</div>
+                                <div class="col py-4 text-center bg-primary display-7">Voluntarios comprometidos</div>
+                            </div>
+                            <h4 class="text-center">
+                                <u>En todo el pais</u>
+                            </h4> <hr>
+                        </div>
+
+
+                    </div>
+
+                </div>
+             </div>
+            </div>
+
+        </main>
+        <footer>
+            <!-- place footer here -->
+            <footer class="bg-dark text-white pt-4">
+                <div class="container">
+                  <div class="row">
+              
+                    <!-- Información de Contacto -->
+                    <div class="col-md-4 mb-4">
+                      <h5>Información de Contacto</h5>
+                      <p><i class="fas fa-map-marker-alt"></i> C/ Villarroel, 170, 08036, Barcelona</p>
+                      <p><i class="fas fa-envelope"></i> <a href="mailto:contacto@compania.org" class="text-white">contacto@mikecompanys.org</a></p>
+                      <p><i class="fas fa-phone"></i> +34 932 27 54 00</p>
+                    </div>
+              
+                    <!-- Redes Sociales -->
+                    <div class="col-md-4 mb-4">
+                      <h5>Síguenos</h5>
+                      <a href="https://facebook.com" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://twitter.com" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                      <a href="https://instagram.com" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                      <a href="https://linkedin.com" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+              
+                  </div>
+              
+                  <hr class="bg-light">
+              
+                  <div class="row">
+                    <div class="col-md-6 text-center">
+                      <p class="mb-0">© 2024 Compañía. <br> Todos los derechos reservados.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end"></div>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+              
+              <!-- Bootstrap y Font Awesome CSS -->
+              <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+              <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+              
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+
+    <script>
+        // Selecciona el botón
+        const alertButton = document.getElementById('alertButton');
+        const alertButton2 = document.getElementById('alertButton2');
+
+        // Añade un evento de clic para mostrar la alerta
+        alertButton.addEventListener('click', () => {
+            Swal.fire({
+                title: '¡Gracias por tu interés en apoyar nuestra causa!',
+                text: 'Actualmente estamos trabajando para expandir nuestra cobertura y poder recibir apoyo de todo el mundo. Sin embargo, en este momento, tu país aún no está cubierto. Agradecemos mucho tu interés y te invitamos a volver a consultar más adelante. ¡Tu apoyo significa mucho para nosotros!',
+                icon: 'warning',
+                confirmButtonText: 'Entendido'
+            });
+        });
+        alertButton2.addEventListener('click', () => {
+            Swal.fire({
+                title: '¡Gracias por tu interés en apoyar nuestra causa!',
+                text: 'Actualmente estamos trabajando para expandir nuestra cobertura y poder recibir donaciones de todo el mundo. Sin embargo, en este momento, tu país aún no está cubierto. Agradecemos mucho tu interés y te invitamos a volver a consultar más adelante. ¡Tu apoyo significa mucho para nosotros!',
+                icon: 'warning',
+                confirmButtonText: 'Entendido'
+            });
+        });
+    </script>
+</html>
